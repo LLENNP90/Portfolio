@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./tanjianshen_styles.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav id="nav" class="nav">
+        <div class="navBar">
+            <a class="logo" href="#home">Jensen</a>
+            <ul class="nav-content">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#home" class="btn-contact-nav">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Page Section? -->
+    <div id="home" class="hero">
+        <div class="container">
+            <div class="my-content">
+                <h1 class="name">Jensen</h1>
+                <p class="subtitle">Aspiring software engineer</p>
+                <p class="description">I'm still learning to code</p>
+                <div class="main-cta">
+                    <a href="#projects" class="btn btn-project">View My Work</a>
+                    <button class="btn btn-contact">Get In Touch</button>
+
+                </div>
+                <div id="contacts" class="contacts">
+                    <div><a href="https://github.com/LLENNP90" target="_blank"><img class="contacts-img" src="./images/github.png" ></a></div>
+                    <div><a href="https://www.instagram.com/j3n53n02/" target="_blank"><img class="contacts-img" src="./images/instagram.png" ></a></div>
+                    <div><a href="https://www.linkedin.com/in/tan-jian-shen-82088a345/" target="_blank"><img class="contacts-img" src="./images/linkedin.png" ></a></div>
+                    <div><a href="https://discordapp.com/users/559699566937636870" target="_blank"><img class="contacts-img" src="./images/discord.png" ></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="about">
+        <div class="container">
+            <h2 class="about-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I really love playing games and guitar and hope that one that I am able to use my love for these hobbies into my new found hobby for coding and programming</p> <br>
+                    <p>I'm a 20 year old student studying in Asia Pacific University (APU) taking Diploma in Software Engineering</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <p class="info-h">Location</p>
+                        <p class="info-d">Malaysia</p>
+                    </div>
+                    <div class="info-item">
+                        <p class="info-h">Experiences</p>
+                        <p class="info-d">1 Year</p>
+                    </div>
+                    <div class="info-item">
+                        <p class="info-h">Availability</p>
+                        <p class="info-d">Open To Work and Willing to Learn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills" class="skills">
+        <div class="container">
+            <h2 class="skill-title">Skills</h2>
+            <div class="skills-category">
+                <h3 class="category-title">Programming Language</h3>
+                <div class="skill-grid"></div>
+            </div>
+            <div class="skills-category" id="framework">
+                <h3 class="category-title">Frameworks</h3>
+                <div class="framework-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="projects">
+        <div class="container">
+            <h2 class="project-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/FairyBase.png" alt="test">
+                    </div>
+                    <div class="project-info">
+                        <h3>Anime Database Website</h3>
+                        <p class="project-description">A website that allows users to look up an anime of their choice. They are also given the chance to add them to a watchlist or a favourites section for them to look back at</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">SQLAlchemy</span>
+                            <span class="tag">Jikan API</span>
+                            <span class="tag">React JS</span>
+                            <span class="tag">SQLite3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">JWT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img id="discord" src="images/lol_bot.png" alt="test">
+                    </div>
+                    <div class="project-info">
+                        <h3>Discord Bot</h3>
+                        <p class="project-description">Discord Bot with League API. Integration with Cohere AI to using Cohere model to get AI response.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">discord.py</span>
+                            <span class="tag">Riot Developer API</span>
+                            <span class="tag">Cohere API</span>
+                            <span class="tag">Pillow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/map-eg.png" alt="test" >
+                    </div>
+                    <div class="project-info">
+                        <h3>Map Integration with Routing service</h3>
+                        <p class="project-description">Website that takes in user input of origin and destination and automatically routes the path. Additionally, returning ETA and distance</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Leaflet.js</span>
+                            <span class="tag">openrouteservice API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/tictactoe.png" alt="test" >
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Tic Tac Toe </h3>
+                        <p class="project-description">Tic Tac Toe against Bots</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/pongJs.png" alt="test" >
+                    </div>
+                    <div class="project-info">
+                        <h3>Pong JS </h3>
+                        <p class="project-description">Using pure JavaScript to recreate the retro game Pong with proper collision logic and settings to change keybinds</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/cdd_bot.png" alt="test" >
+                    </div>
+                    <div class="project-info">
+                        <h3>Chor Dai Di Discord Bot</h3>
+                        <p class="project-description">Discord Bot that allows up to four players to play Chor Dai Di, also known as The Big Two</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">py-cord</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="tanjianshen_script.js"></script>
+</body>
+</html>
