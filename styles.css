@@ -118,6 +118,12 @@ html{
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+.subheader{
+    font-size: 30px;
+    font-family: var(--font-mono);
+    text-align: center;
+}
 .subtitle{
     color: rgb(48, 147, 227);
     font-family: var(--font-mono);
@@ -126,6 +132,7 @@ html{
 }
 
 .description{
+    font-family: var(--font-mono);
     margin-bottom: 50px;
 }
 
